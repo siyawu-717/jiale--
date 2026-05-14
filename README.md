@@ -1,6 +1,6 @@
 # 家乐千川：全量明细 · 看板 · 需修改诊断（0412–0512 流水线）
 
-本仓库对应「轩辕 + 奥创 + OSS(ASR)」输入，产出 **一张总表与分表**、**看板数据**、**需修改 Gemini 分析 + PDF**，并支持将 **样例 PDF 的 OSS URL** 回填到 workflow 的「需修改」sheet。
+本仓库对应「轩辕 + 奥创 + OSS(ASR)」输入，产出 **一张总表与分表**、**看板数据**、**需修改 Gemini 分析 + PDF**，并支持将 **样例 PDF 的 OSS URL** 回填到 workflow 的「需修改」sheet。（仓库原名侧重「周创建脚本诊断」，现已扩展为完整千川复盘流水线。）
 
 线上说明与历史描述亦可见：[siyawu-717/jiale--](https://github.com/siyawu-717/jiale--)（本 README 为完整操作版）。
 
@@ -146,3 +146,4 @@ A：Step2 结果是旧的；跑 `python3 scripts/run_jiale_0412_pipeline.py --st
 
 **Q：`编导读数分析报告.md` 里某品没有爆款？**  
 A：当月创建窗口内该品「可复制」样本可能为空；可调 `--dashboard-create-*` 或扩数据。
+
