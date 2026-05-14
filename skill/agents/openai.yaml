@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: 家乐全量复盘流程
+  short_description: 跑家乐千川全量明细、需修改分析和PDF
+  default_prompt: 读取两个账号近30天数据表、信息维护表和视频ID-OSS映射表，按skill流程产出全量明细、看板、三分类、需修改分析和PDF。

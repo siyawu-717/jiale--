@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cursor / IDE
+.idea/
+.vscode/
+
+# 生成物（体积大，克隆后本地重跑流水线即可）
+output/**/*
+!output/.gitkeep
+
+# 千川原始表（通常含业务数据，默认不入库；需要演示可去掉下行并提交脱敏样例）
+0412-0512输入/*.xlsx
+
+# 临时分析脚本（Step2 生成，可删）
+*_analyze_need_modify_generated.py
